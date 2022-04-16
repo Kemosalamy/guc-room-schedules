@@ -1,6 +1,6 @@
-userinfo.txt
-mainpage.html
-ids.txt
-headers.txt
-schedules.html
-parsedschedules.txt
+scraper/userinfo.txt
+scraper/mainpage.html
+scraper/ids.txt
+scraper/headers.txt
+scraper/schedules.html
+scraper/parsedschedules.txt
