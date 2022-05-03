@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Retrieve username and password from information.txt file, setup URL
+#Retrieve username and password from userinfo.txt file, setup URL
 USERNAME=$(sed -n 1p userinfo.txt | tr -d '\n' | tr -d '\r')
 PASSWORD=$(sed -n 2p userinfo.txt | tr -d '\n' | tr -d '\r')
 HEADERS=$(cat headers.txt | tr -d '\n' | tr -d '\r')
