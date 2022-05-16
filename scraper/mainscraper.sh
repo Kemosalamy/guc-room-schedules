@@ -10,11 +10,19 @@ python ./pyscraper.py
 ./retriever.sh
 
 #Parse all schedules from schedules.html into parsedschedules.txt
+printf "Parsing requested schedules.....\n"
 python ./pyparser.py
+printf "Parsing successful\n"
 
 #CLEANUP 
+
+printf "Cleaning up additional files.....\n"
 
 rm ./mainpage.html
 rm ./ids.txt
 rm ./headers.txt
 rm ./schedules.html
+
+printf "Cleanup successful\n"
+
+printf "DONE\n"

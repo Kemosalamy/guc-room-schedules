@@ -1,6 +1,6 @@
 # Dependencies
 - Bash, preferably WSL if you're using Windows(Git Bash and MSYS2 didn't work for me)
-- Python 3
+- Python 3(Must be usable as a command from Bash)
 
 
 # How to use
